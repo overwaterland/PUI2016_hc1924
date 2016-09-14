@@ -1,5 +1,11 @@
-##hw1-Assignment 2
-1. Access the compute
+#HW1
+HW1 is done independently by myself.
+##HW1-Assignment 1
+Please refer to the repo comment.
+fork with yw2278.
+##HW1-Assignment 2
+
+1. Aaccess the compute with ssh
 
 	```
 	ssh hc1924@gw.cusp.nyu.edu
@@ -16,3 +22,5 @@
 
 ![Screenshot 1 Assignment 2: my .set up](HW1_SS2.png)
 
+##HW1-Assignment 3
+Please refer to the HW1_3_hc1924.ipynb.
