@@ -1,8 +1,10 @@
 #hw1-Assignment 2
 1. Access the compute
-2. 
+
 	```
 	ssh hc1924@gw.cusp.nyu.edu
+	```
+	```
 	ssh compute
 	```
 2. Create an environmental variable on my compute account call PUI2016 that points to the directory 
