@@ -1,5 +1,6 @@
 #hw1-Assignment 2
 1. Access the compute
+2. 
 	```
 	ssh hc1924@gw.cusp.nyu.edu
 	ssh compute
