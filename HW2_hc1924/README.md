@@ -1,5 +1,5 @@
 #HW2
-HW2 is done independently by myself and the only difficulty I came across is the Extra Credid Assignment which made me dig into how to plot the dates in Panda.
+HW2 is done independently by myself and the only difficulty I came across is the Extra Credid Assignment which made me dig into how to plot the dates with Pandas.
 ##HW2_Assignment 1
 The test result is as follows:
 
