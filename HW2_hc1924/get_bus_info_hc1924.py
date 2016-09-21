@@ -11,8 +11,8 @@ except ImportError:
     import urllib.request as urllib
 
 if not len(sys.argv) == 4:
-	print("Invalid number of arguments. Run as python show_bus_locations_hc1924.py <MTA_KEY> <BUS_LINE> <BUS_LINE>.csv")
-	sys.exit()
+    print("Invalid number of arguments. Run as python show_bus_info_hc1924.py <MTA_KEY> <BUS_LINE> <BUS_LINE>.csv")
+    sys.exit()
 
 #http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=93f33afe-1590-4ad3-8244-ac31bea8204b&VehicleMonitoringDetailLevel=calls&LineRef=B52
 
@@ -40,10 +40,14 @@ fout = open(sys.argv[3], "w")
 fout.write("Latitude,Longitude,Stop Name,Stop Status\n")
 
 for i in range(num):
-    item = jsonData["Siri"]["ServiceDelivery"]["VehicleMonitoringDelivery"][0]['VehicleActivity'][i]["MonitoredVehicleJourney"]
-    #<!-- SituationRef, present only if there is an active service alert covering this call -->
-    StopPointName = item["OnwardCalls"]["OnwardCall"][0]["StopPointName"]
-    PresentableDistance = item["OnwardCalls"]["OnwardCall"][0]["Extensions"]["Distances"]["PresentableDistance"]
+    item = jsonData["Siri"]["ServiceDelivery"]["VehicleMonitoringDelivery"][0]['VehicleActivity'][i]["MonitoredVehicleJourney"]  
+    if item["OnwardCalls"] != []: 
+        StopPointName = item["OnwardCalls"]["OnwardCall"][0]["StopPointName"]
+        PresentableDistance = item["OnwardCalls"]["OnwardCall"][0]["Extensions"]["Distances"]["PresentableDistance"]
+    else: 
+        # When the OnwordCalls field is empty, output "N/A" as values for both the "Stop Name" and "Stop Status" fields.
+        StopPointName = "N/A"
+        PresentableDistance = "N/A"
     Latitude = item["VehicleLocation"]["Latitude"]
     Longitude = item["VehicleLocation"]["Longitude"]
 
