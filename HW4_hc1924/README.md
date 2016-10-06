@@ -8,7 +8,7 @@ Have already submit pull request to sunnyk82/PUI2016_skk456.
 
 | **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var | Control Var type  | Question to be answered | _H0_ | alpha | link to paper **| 
 |:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
-T-test	| 1, Hours after emergence | categorical | 1, total amount of mosquito lipid reserves| continuous | 1, fed to mosquito | categorical  | 	Does Starvation decreases mosquito lipid reserves | Test groups >=  Control group | 0.05 | [Correction: Starvation Increases Insulin Sensitivity and Reduces Juvenile Hormone Synthesis in Mosquitoes](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0097054) |
+T-test	| 1, Hours after emergence | categorical | 1, total amount of mosquito lipid reserves| continuous | 1, fed to mosquito | ratio  | 	Does Starvation decreases mosquito lipid reserves | Test groups >=  Control group | 0.05 | [Correction: Starvation Increases Insulin Sensitivity and Reduces Juvenile Hormone Synthesis in Mosquitoes](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0097054) |
   |||||||||
   
 
