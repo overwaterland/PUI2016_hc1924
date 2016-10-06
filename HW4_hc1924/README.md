@@ -12,6 +12,11 @@ T-test	| 1, Hours after emergence | categorical | 1, total amount of mosquito li
   |||||||||
   
 
+| **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var | Control Var type  | Question to be answered | _H0_ | alpha | link to paper **| 
+|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
+Regression	| 1,narcissistic traits (NPI) of women | continous | 1, scales of self-image(BSE and MBSRQ),2 BMI level(obese, severely underweight, normal body weight)| categorical | none | nan  | 	Does narcissism has significant impact on the body image of women who are extremely underweight or obese| significance value > alpha | 0.05 | [Narcissism as a Moderator of Satisfaction with Body Image in Young Women with Extreme Underweight and Obesity](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126724) |
+  |||||||||
+  
 ##HW4_Assignment 3
 Having read the Chapter 1,7,8,10 of the Statistics in a Nutshell. The analysis is fine to reproduce.
 
