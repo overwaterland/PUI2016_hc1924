@@ -1,26 +1,24 @@
-#HW4
-HW4_assignment1,3,4 is done by myself. I worked with Sichen Tang on assignment2. We picked different thesis and then we did the table independently. What we share is so many unsolved questions...
+#HW5
 
-##HW4_Assignment 1
-Have already submit pull request to sunnyk82/PUI2016_skk456. 
-
-##HW4_Assignment 2
-
-| **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var | Control Var type  | Question to be answered | _H0_ | alpha | link to paper **| 
-|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
-T-test	| 1, Hours after emergence | categorical | 1, total amount of mosquito lipid reserves| continuous | 1, fed to mosquito | ratio  | 	Does Starvation decreases mosquito lipid reserves | Test groups >=  Control group | 0.05 | [Correction: Starvation Increases Insulin Sensitivity and Reduces Juvenile Hormone Synthesis in Mosquitoes](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0097054) |
-  |||||||||
-  
-
-| **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var | Control Var type  | Question to be answered | _H0_ | alpha | link to paper **| 
-|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
-Regression	| 1,narcissistic traits (NPI) of women | continous | 1, scales of self-image(BSE and MBSRQ),2 BMI level(obese, severely underweight, normal body weight)| categorical | none | nan  | 	Does narcissism has significant impact on the body image of women who are extremely underweight or obese| significance value > alpha | 0.05 | [Narcissism as a Moderator of Satisfaction with Body Image in Young Women with Extreme Underweight and Obesity](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126724) |
-  |||||||||
-  
 ##HW4_Assignment 3
-Having read the Chapter 1,7,8,10 of the Statistics in a Nutshell. The analysis is fine to reproduce.
+Formulate the Null hypothesis in words and in formulae for the 4 experiments below:
 
-##HW4_Assignment 4
-Confused about many things. 
+Do diets help lose more fat than the exercis
+Experimental setup: measure cessation rates for smokers randomly assigned to use a nicotine patch versus a placebo patch.
 
-PS: Bumped into problems with the git command when I need to pull and push homework at the last minute. It turns out it's because I upgraded may macbook from Yosemite to EI Capitan a few hours ago. Solved it by "xcode-select --install" which brings up a prompt to install the necessary command line tools. 
+Quantify the danger of smoking for pregnant women.
+Experimemtal setup: measure IQ of children at ages 1, 2, 3, and 4 years of age.
+
+1. 
+Null Hypothesis: The average body fat of people after a diet is higher or the same as the average body fat of people in the control group. 
+H0: $H_0: P_0 - P_1 \geq$ 0 
+
+2. 
+Null Hypothesis: The ratio of people who trust Bill Clinton of his honesty and integrity is 
+
+3.
+Null Hypothesis: The cessation rates of smokers after using nicotine patches is lower or the same as for smokers using placebo patches.
+
+4. 
+The average IQ of children at 1,2,3 and 4 years whose mom smoked during pregnancy is higher or the same as those children whose mom in the control group.
+ 
