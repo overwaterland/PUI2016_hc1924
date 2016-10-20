@@ -4,4 +4,6 @@ HW6_assignment1 is done with 10% help of Wang Yao.I worked with Sichen Tang on a
 ##HW6_Assignment 1
 I don't know why my compute can't import packages like geopandas and seaborn. I download the file on my local folder and work on local server. The files aren't in the PUIdata.
 
-##HW4_Assignment 2
+##HW6_Assignment 2
+
+[Citibank mini project report](https://www.authorea.com/users/107275/articles/134300/_show_article)
