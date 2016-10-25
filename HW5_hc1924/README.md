@@ -1,6 +1,6 @@
 #HW5
 
-##HW4_Assignment 3
+##HW5_Assignment 3
 
 1. Null Hypothesis: The average body fat of people after a diet is higher or the same as the average body fat of people in the control group. 
 H0: $H_0: P_0 - P_1 \geq$ 0 
