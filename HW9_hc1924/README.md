@@ -1,2 +1,2 @@
-#HW7
-HW7_assignment1 is mainly to practice plotting. During the process I leaned from and referred from several online tutorials.
+#HW9
+HW9_assignment1 is done by myself. There is still confusion about Task 3. Still trying to figure out the code on fourier.
